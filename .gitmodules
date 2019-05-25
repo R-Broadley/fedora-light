@@ -1,0 +1,3 @@
+[submodule "sddm-chili"]
+	path = sddm-chili
+	url = https://github.com/MarianArlt/sddm-chili.git

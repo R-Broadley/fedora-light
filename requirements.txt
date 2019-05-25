@@ -1,0 +1,52 @@
+# Groups
+@core
+@standard
+@hardware-support
+@networkmanager-submodules
+@fonts
+@multimedia
+@base-x
+
+# Desktop and Window Manager
+sddm
+lxqt-session
+lxqt-panel
+lxqt-config
+lxqt-notificationd
+notification-daemon
+lxqt-qtplugin
+lxqt-policykit
+lxqt-openssh-askpass
+lxqt-powermanagement
+i3
+rofi
+xsettingsd
+
+# Core Apps
+firefox
+gnome-terminal
+htop
+mpv
+neovim
+ranger
+
+# Themes
+papirus-icon-theme
+arc-theme
+arc-kde-kvantum
+
+# GUI Apps (Gnome)
+gnome-calculator
+gnome-disk-utility
+baobab
+eog
+gnome-software
+
+# Media tools and plugins
+youtube-dl
+
+# Exclusions
+--exclude xterm
+--exclude rxvt-unicode
+--exclude qterminal
+--exclude pcmanfm-qt

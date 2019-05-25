@@ -1,0 +1,4 @@
+rofi.modi:		drun,run,window
+rofi.combi-modi:	drun,run,window
+rofi.theme:             Arc-Dark
+rofi.show-icons:	true
