@@ -43,6 +43,7 @@ eog
 gnome-software
 
 # Media tools and plugins
+pavucontrol
 youtube-dl
 
 # Exclusions
