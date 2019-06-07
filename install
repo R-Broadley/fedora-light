@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Update submodules
-git submodule update --init --recursive
-
 # Get path of repo directory (the one containing this script)
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Update submodules
+( cd $DIR && git submodule update --init --recursive )
 
 # Enable RPM Fusion Repos
 
